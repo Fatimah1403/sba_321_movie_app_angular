@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #3832a8;
+  --yellow-color: #a89632;
+  --sec-yellow: #ffe645;
+  --sec2-yellow: #e2aa02;
+}
+
+
 .login-container {
     width: 100%;
     height: 100vh;

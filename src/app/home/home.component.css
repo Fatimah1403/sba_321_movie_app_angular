@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #3832a8;
+    --yellow-color: #a89632;
+    --sec-yellow: #ffe645;
+    --sec2-yellow: #e2aa02;
+  }
+
+.home-container {
+   display: flex; 
+   .all-movies {
+    width: 75%;
+    min-height: calc(100vh - 80px);
+    border-right: 2px solid #e2aa02;
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+   }
+   .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #ffe645;
+    padding-left: 10px;
+   }
+   .view-all {
+    color: #ffe645;
+    cursor: pointer;
+   }
+   .popular-movies {
+    width: 25%;
+    min-height: calc(100vh - 80px);
+
+   }
+}

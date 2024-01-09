@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #3832a8;
+    --yellow-color: #a89632;
+    --sec-yellow: #ffe645;
+    --sec2-yellow: #e2aa02;
+  }
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    background-color: #e2aa02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Creepster', cursive;
+        letter-spacing: 4px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    .logout {
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 40px;
+    }
+}
