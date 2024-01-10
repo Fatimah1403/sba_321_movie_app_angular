@@ -3,56 +3,56 @@
     --yellow-color: #a89632;
     --sec-yellow: #ffe645;
     --sec2-yellow: #e2aa02;
-  }
+}
 
 .home-container {
-   display: flex; 
-   .all-movies {
+  display: flex;
+  .all-movies {
     width: 75%;
     min-height: calc(100vh - 80px);
-    border-right: 2px solid #e2aa02;
+    border-right: 1px solid #fdc827;
     padding: 20px 40px;
     font-family: "Roboto", sans-serif;
-   }
-   .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 15px
-   }
-   h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    border-left: 5px solid #ffe645;
-    padding-left: 10px;
-   }
-   .view-all {
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-   }
-   .movies-thumbnail {
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 30px;
-     .movie {
-      .cover {
-        img {
-          border-radius: 10px;
-        }
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        border-left: 5px solid #ff9900;
+        padding-left: 10px;
       }
-      .detail {
-        width: 180px;
-        .name {
-          font-weight: bold;
-          height: 50px;
-          margin-top: 5px;
-          cursor: pointer;
-        }
+      .view-all {
+        color: #ff9900;
+        cursor: pointer;
       }
-     }
     }
-   .popular-movies {
+    .movies-thumbnail {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      .movie {
+        .cover {
+          cursor: pointer;
+          img {
+            border-radius: 5px;
+          }
+        }
+        .detail {
+          width: 180px;
+          .name {
+            font-weight: bold;
+            height: 50px;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .popular-movies {
     width: 25%;
     min-height: calc(100vh - 80px);
     padding: 20px 40px;
@@ -82,16 +82,16 @@
         cursor: pointer;
       }
     }
-
-   }
+  }
 }
+
 .rating {
   padding-right: 45px;
   position: relative;
   .rating-value {
-    font-weight: bold;
     position: absolute;
     top: 10px;
     right: 0px;
+    font-weight: bold;
   }
 }
